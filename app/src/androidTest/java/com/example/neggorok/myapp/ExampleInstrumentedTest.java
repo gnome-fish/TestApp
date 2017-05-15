@@ -16,7 +16,7 @@ public class ExampleInstrumentedTest {
     public void useAppContext() throws Exception {
         // WEHE das geht jez nicht.
         
-        
+        System.out.println("Hi");
         Context appContext = InstrumentationRegistry.getTargetContext();
 
         assertEquals("com.example.neggorok.myapp", appContext.getPackageName());
